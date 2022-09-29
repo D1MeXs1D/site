@@ -1,0 +1,306 @@
+.innerSection1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+
+.innerSofasPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.innerSofasPhoto > img {
+    width: 500px;
+}
+
+.smallPhotoTwo img {
+    width: 250px;
+    margin: 0 auto;
+   
+}
+
+.PussSofa img {
+    width: 500px;
+}
+
+.description {
+    display: flex;
+    font-size: 26px;
+    flex-direction: column;
+    width: 500px;
+    line-height: 0px;
+    margin-left: 40px;
+    /* height: 500px; */
+    font-weight: 500;
+}
+
+.description p {
+    line-height: 25px;
+    /* flex-wrap: wrap; */
+}
+
+
+
+
+
+.supportEmail p {
+    font-size: 25px;
+    color: #1b1b1b;
+    text-align: center;    
+    margin: 40px 4%;  
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+
+.linksNav {
+    display: flex;
+    margin: 50px 170px 50px 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    display: block;
+    width: 420px;
+    text-align: center;
+    /* margin: 0 auto; */
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 60px;
+    border-radius: 80px;
+    background-color: #fbed70;
+    transition: 0.1s;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .button:hover{
+    border-radius: 50px 40px 50px 40px;
+    background-color: #fdea3d;
+  }
+
+
+  /* табличка */
+
+
+  .innerSection1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+}
+
+
+
+
+
+.innerSofasPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.innerSofasPhoto > img {
+    width: 500px;
+    transition: 0.6s;
+    
+}
+
+
+.innerSofasPhoto > img:hover{
+    scale: 1.2;
+    
+}
+
+.smallPhotoTwo img {
+    width: 250px;
+    margin: 0 auto;
+    transition: 0.6s;
+}
+
+.smallPhotoTwo img:hover{
+    width: 350px;
+    
+}
+
+.PussSofa img {
+    width: 500px;
+}
+
+.innerSectionLine {
+    width: 85%;
+    height: 2px;
+    background: #212121;
+    opacity: 0.5;
+    margin-top: 50px;
+    display: block;
+}
+
+/* .innerSectionLine1  */
+
+.description {
+    border: #1b1b1b 1px solid;
+    display: flex;
+}
+
+
+
+table tr:nth-child(even) { 
+    background-color: rgba(253, 243, 67, 0.7);
+}
+
+
+
+tr {
+  border: 2px  black solid;
+}
+
+td {
+
+    /* столбцы */
+    min-width: 270px;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 40px;
+    font-weight: 700;
+    transition: 0.5s ease;
+    
+    
+}
+
+tr td:nth-child(even) {
+    max-width: 50px !important; /* Очень важно, CSS пж сделай это! Молю тебя */
+}
+
+table {
+    border-spacing: 0;
+    font-size: 25px;
+    border:  rgba(253, 243, 67, 0.7) 2px solid;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+main h1 {
+    font-size: 62px;
+    color: #1b1b1b;
+    font-family: "Caviar-Dreams";   
+    text-align: center;   
+    font-weight: 900; 
+}
+
+  @media (max-width:1200px) {
+    .button {
+        display: block;
+        width: 320px;
+        padding: 10px 30px;
+        font-weight: 700;
+        
+      }
+
+      .linksNav {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+  }
+
+  @media (max-width:1100px) {
+
+    main h1 {
+        font-size: 35px;
+    }
+
+    .innerSection1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .linksNav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .button {
+        display: block;
+        width: 320px;
+        padding: 10px 30px;
+        font-weight: 500;
+        margin-top: 15px;
+
+      }
+
+    .innerSofasPhoto{
+        margin: 0;
+    }  
+
+    .innerSofasPhoto > img {
+        width: 300px;
+        margin-top: 350px;
+    }
+    
+    .smallPhotoTwo img {
+        width: 150px;
+        margin: 0 auto;
+       
+    }
+
+    .PussSofa img {
+        width: 300px;
+    }
+
+    .description {
+        display: flex;
+        font-size: 10px;
+        flex-direction: column;
+        width: 500px;
+        margin-left: 0px;
+        /* height: 300px; */
+        font-weight: 500;
+    }
+    
+    .description p {
+        line-height: 25px;
+        text-align: center;
+    }
+  }
+
+
+  @media (max-width:400px) {
+
+   hr {
+    margin-bottom: 30px;
+   }
+    
+    .description  {
+        line-height: 25px;
+        text-align: center;
+        width: 350px;
+        margin-bottom: 150px;
+    }
+
+    .linksNav {
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+         
+    }
+
+   .innerSofasPhoto {
+    margin-top: 50px;
+    }
+
+  }

@@ -1,0 +1,154 @@
+
+
+.formFeedback {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input {
+	width: 200px;
+}
+
+
+.generalfeed {
+	display: flex;
+	justify-content: center;
+
+}
+
+.leftInput {
+	display: flex;
+	flex-direction: column;
+	margin-right: 60px;
+}
+
+.textarea {
+	display: flex;
+	flex-direction: column;
+	margin-left: 60px;
+	height: 400px;
+	margin-top: 1%;
+}
+
+textarea {
+	padding: 15px;
+}
+
+.textTextarea {
+	margin-bottom: 15px;
+}
+
+.feedback input[type=submit] {
+	 width: 350px; 
+	 height: 75px; 
+	 border-radius: 35px; 
+	 border: 2px solid rebeccapurple; 
+	 background:#FBED70;
+	color:black;
+	margin: 20px 0;
+	font-family: "Caviar-Dreams";
+	font-weight: 900;
+	font-size: 28px;
+	transition: 0.5s;
+	cursor: pointer; 
+}
+
+
+.feedback input[type=submit]:hover {
+	background: black;
+	color: white; 
+}
+
+.legend {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.tittleOne, .tittleTwo {
+	margin: 15px 0px 20px 0px;
+}
+
+form input, textarea {
+	border: 2px solid #00000033 !important;
+	box-shadow: 0 5px rgba(0, 0, 0, 0.25);
+	font-family: "Caviar-Dreams";
+	border-radius: 20px;
+	resize: none;
+	font-size: 30px;
+	width: 400px;
+}
+
+
+form input {
+	height: 60px;
+}
+
+
+form input[type=text], input[type=tel], input[type=mail] {
+    padding-left: 25px;
+    font-weight: 900;
+	font-size: 21px;
+	font-size: 20px;
+}
+
+.leftInput input{
+	margin: 20px 0px;
+}
+
+
+@media only screen and (max-width: 1000px) { 
+
+		.generalfeed {
+		flex-direction: column;	}
+
+		.leftInput {
+			margin-right: 0px;
+		}
+
+
+		.textarea {
+		margin-left: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 900px) { 
+
+		.feedback input[type=submit] {
+		width: 270px;
+		height: 75px;
+		border-radius: 35px;
+		font-size: 20px;
+		}	
+	
+		form input, textarea {
+		font-size: 30px;
+		width: 300px;
+		}
+
+		.tittleOne, .tittleTwo {
+			margin: 0;
+		}
+
+		section {
+			font-size: 25px;
+		}
+
+		form input {
+			height: 50px;
+		}
+
+		.textarea {
+			height: 300px;
+		}
+}
+
+
+
+@media only screen and (max-width: 450px) { 
+
+	/* при необходимости адаптировать */
+
+}
+

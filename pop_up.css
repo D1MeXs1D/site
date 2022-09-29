@@ -1,0 +1,137 @@
+.block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+  
+  }
+  
+  
+  
+  /* .wrapper {
+    
+  } */
+  
+  /* Важная часть */
+  
+  .popup__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    opacity: 0; 
+    pointer-events: none; 
+    transition: 0.5s all;
+  }
+  
+  .popup__bg.active { 
+    opacity: 1; 
+    pointer-events: all; 
+    transition: 0.5s all;
+  }
+  
+  .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); 
+    background: #fff;
+    width: 1100px;
+    height: 650px;
+    padding: 25px;
+    transition: 0.5s all;
+    border-radius: 30px;
+  }
+  
+  .popup.active { 
+    transform: translate(-50%, -50%) scale(1); 
+    transition: 0.5s all;
+  }
+  /* Конец важной части */
+  /* Далее код для стилизации формы */
+  .close-popup {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    transform: scale(3); 
+  }
+  
+  
+  .sofa1 {
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 4px 4px 65px #D2D2D2;
+    
+  }
+  
+  .sofa1 > img {
+    width: 400px;
+    height: 270px;
+    
+  }
+  
+  .inneritBlock {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .blockOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 650px;
+  }
+  
+  .blockOne > img {
+    width: 500px;
+    box-shadow: 4px 4px 65px #D2D2D2;
+    border-radius: 30px;
+  }
+  
+  .inneritOneBlock > img {
+    width: 250px;
+   
+  }
+  
+  .blockTwo {
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+  }
+  
+  .tittle  {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 25px;
+  }
+  
+  .description {
+   
+    min-height: 500px;
+    margin: 0 auto;
+    
+  }
+  
+  .description > p{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 10px;
+    padding: 10px 0; 
+    text-align: justify; 
+  } 
